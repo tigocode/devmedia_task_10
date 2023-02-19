@@ -1,0 +1,36 @@
+.secao-background-solteiro {
+  width: 100%;
+  height: 110px;
+  background-image: url("../assets/img-fundo.jpg");
+  background-size: cover;
+  background-position-y: -70px;
+}
+.quartos {
+  border: none
+}
+.quartos img {
+  width: 98%;
+  height: 200px;
+}
+.secao-information h3 {
+  padding: 30px 0;
+  text-align: center;
+  color: #4e4c4c;
+}
+.secao-information div {
+  display: flex;
+  justify-content: center;
+}
+.secao-information ul {
+  width: 700px;
+  padding-bottom: 20px;
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.secao-information ul li {
+  align-content: center;
+  color: #6d6b6b;
+}
